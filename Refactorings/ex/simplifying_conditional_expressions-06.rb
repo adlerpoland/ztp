@@ -21,10 +21,10 @@ class MountainBike
   end
 end
 
-geant = MountainBike.new 1000, 400, 600, 0.1
-puts geant.price(:rigid)
-puts geant.price(:front_suspension)
-puts geant.price(:full_suspension)
+giant_pro_29er = MountainBike.new 20000, 4000, 6000, 0.1
+puts giant_pro_29er.price(:rigid)
+puts giant_pro_29er.price(:front_suspension)
+puts giant_pro_29er.price(:full_suspension)
 
 # Replace Conditional with Polymorphism
 
@@ -60,9 +60,9 @@ class FullSuspensionMountainBike < MountainBike
   end
 end
 
-geant = MountainBike.new 1000, 400, 600, 0.1
-puts geant.price(RigidMountainBike)
-puts geant.price(FrontSuspensionMountainBike)
-puts geant.price(FullSuspensionMountainBike)
+giant_pro_29er = MountainBike.new 1000, 400, 600, 0.1
+puts giant_pro_29er.price(RigidMountainBike)
+puts giant_pro_29er.price(FrontSuspensionMountainBike)
+puts giant_pro_29er.price(FullSuspensionMountainBike)
 
 # reek simplifying_conditional_expressions-06.rb
