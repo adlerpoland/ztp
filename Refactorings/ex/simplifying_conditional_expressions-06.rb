@@ -60,7 +60,7 @@ class FullSuspensionMountainBike < MountainBike
   end
 end
 
-giant_pro_29er = MountainBike.new 1000, 400, 600, 0.1
+giant_pro_29er = MountainBike.new 20000, 4000, 6000, 0.1
 puts giant_pro_29er.price(RigidMountainBike)
 puts giant_pro_29er.price(FrontSuspensionMountainBike)
 puts giant_pro_29er.price(FullSuspensionMountainBike)
