@@ -15,7 +15,7 @@ Lista brzydkich zapachów w kodzie: ::
   Shotgun Surgery (fala uderzeniowa),
   Feature Envy (zazdrosne metody),
   Data Clumps (stada danych),
-  Primitive Obsession (opętanie prymitywami),
+  Primitive Obsession / Open Secret (opętanie prymitywami),
   Case Statement (instrukcja case),
   Parallel Inheritance Hierarchies (równoległe hierarchie dziedziczenia),
   Lazy Class (leniwa klasa),

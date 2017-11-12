@@ -1,0 +1,95 @@
+## Table of Refactorings that will address Code Smells
+
+Source: _Refactoring in Ruby_ by W. C. Wake & K. Rutherford.
+
+{nbsp}
+
+[quote]
+____
+Code smells suggest refactorings.
+____
+
+{nbsp}
+
+[cols="^10s,40,50", options="header", caption=""]
+|===
+^| # ^| Code Smell   ^| Refactorings
+
+   3+h| Accommodating Change
+|     | Divergent Change                 | Extract Class, Extract Module, Extract Superclass, Extract Subclass;
+                                           see Simulated Polymorphism, Greedy Module
+|     | Shotgun Surgery                  | Extract Module, Move Field, Move Method, Inline Module;
+                                           see Open Secret
+|     | Parallel Inheritance Hierarchies | Move Field, Move Method
+|     | Combinatorial Explosion          | Replace Inheritance with Delegation, Tease Apart Inheritance
+
+   3+h| Conditional Logic
+|  x  | Nil Check                      | Introduce Null Object, use reasonable default value
+|     | Special Case                   | Replace Conditional with Polymorphism, Extract Method; see Control Coupling
+|     | Complicated Boolean Expression | Introduce Explaining Variable, Decompose Conditional; use guard clauses
+|  x  | Control Coupling               | Extract Method & Inline Method
+|  x  | Simulated Polymorphism         | Extract Method, Move Method, Replace Type Code With Subclass,
+                                         Replace Type Code with State/Strategy, Replace Conditional with Polymorphism
+   3+h| Data
+|     | Open Secret     | Replace Array with Object, Replace Hash With Object; see Data Clump
+|     | Data Class      | Remove Settings Method, Encapsulate Collection, Extract Method, Move Method,
+                          Rename Method, Add Parameter, Remove Parameter, Remove Method
+|  x  | Data Clump      | Extract Class, Introduce Parameter Object
+|     | Temporary Field | Extract Class
+
+   3+h| Duplication
+|     | Dervived Value  | Replace Value with Expression
+|     | Repeated Value  | Replace Magic Number with Symbolic Constant, Extract Method, Form Template Method
+|  ?  | Duplicated Code | Extract Method, Pull Up Method, Pull up Instance Variable, Form Template Method
+                          Substitute Algorithm; see Feature Envy
+|     | Alternative Modules with Different Interfaces | Rename Method, Move Method, Add Parameter,
+                          Parametrize Method, Extract Superclass or remove class or module
+
+   3+h| Inheritance
+|     | Implementation Inheritance | Replace Inheritance with Delegation, Extract Class, Extract Module;
+                                     see Middle Man
+|     | Refused Bequest            | Replace Inheritance with Delegation, Move Method, Introduce Null Object,
+                                     Extract Subclass, Push Down Method;
+                                     see Conditional Logic
+|     | Inappropriate Intimacy     | Form Template Method, Replace Inheritance with Delegation;
+                                     see Implementation Inheritance
+|     | Lazy Class                 | Collapse Hierarchy, Inline Class;
+                                     see Dead Code
+
+  3+h| Libraries
+|     | Incomplete Library Module | Introduce Local Extension, Extract Module
+|     | Reinvented Wheel          | see Alternative Modules with Different Interfaces
+|     | Runaway Dependencies      | Dependency Inversion, Parametrize Method;
+                                    see Implementation Inheritance
+
+   3+h| Measurable Smells
+|     | Comments            | Extract Method, Rename Method, Introduce Assertion
+|     | Long Method         | Extract Method, Replace Method with Method Object
+|  ?  | Large Module        | Extract Class, Extract Module, Extract Submodule, Duplicate Observed Data;
+                              possibly fix these smells first: Long Method, Data Clumps, Temporary Fields
+|  x  | Long Parameter List | Replace Parameters with Method, Preserve Whole Object, Introduce Parameter Object
+
+   3+h| Names
+|     | Inconsistent Name    | Rename Method (or constant etc.)
+|     | Type Embeded in Name | Rename Method (or constant etc.)
+|  x  | Uncommunicative Name | Rename Method (or constant etc.)
+
+   3+h| Responsibility
+|  x  | Feature Envy           | Extract Method, Move Method; see Utility Function
+|  x  | Utility Function       | Extract Class, Move Method
+|     | Global Variable        | Add Parameter
+|     | Inappropriate Intimacy | Move Method, Move Instance Variable, Extract Class, Hide Delegate
+|     | Message Chain          | Extract Method, Move Method, Hide Delegate;
+                                 see Inappropriate Intimacy
+|     | Middle Man             | Remove Middle Man, Replace Delegation with Inheritance
+|     | Greedy Module          | Isolate Dynamic Receptor;
+                                 see Large Module, Data Clump
+
+   3+h| Unnecessary Complexity
+|  ?  | Dead Code              | delete (posibbly recursively) unused code
+|     | Speculative Generality | Inline Class, Collapse Hierarchy, Inline Method, Remove Method,
+                                 Remove Parameter (instance variables etc.)
+|     | Greedy Method          | see Long Method, Feature Envy
+|     | Procedural Code        | Replace Loop with Collection Closure Method, Replace Temp with Chain
+|     | Dynamic Code Creation  | Replace Dynamic Receptor with Dynamic Method Definition, Move Eval from Run-time to Parse-time
+|===
