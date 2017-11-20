@@ -209,38 +209,32 @@ these refactorings are responsible for fixing the most smells.
 WARNING: Quite a few refactorings are not mentioned by any
 of the smells.
 
-Lista wszystkich *code smells* z książki _Refactoring – Ruby ed._.
-
-[cols="^10s,80", options="header", caption=""]
-|===
-| #   | Code Smell
-
-|     | Duplicated Code
-|     | Long Method
-|     | Large Class
-|     | Long Parameter List
-|     | Divergent Change
-|     | Shotgun Surgery
-|     | Feature Envy
-|     | Data Clumps
-|     | Primitive Obsession
-|     | Case Statements
-|     | Parallel Inheritance Hierarchies
-|     | Lazy Class
-|     | Speculative Generality
-|     | Temporary Field
-|     | Message Chains
-|     | Middle Man
-|     | Inappropriate Intimacy
-|     | Alternative Classes with Different Interfaces
-|     | Incomplete Library Class
-|     | Data Class
-|     | Refused Bequest
-|     | Comments
-|     | Metaprogramming Madness
-|     | Disjointed API
-|     | Repetitive Boilerplate
-|===
+Lista wszystkich *code smells* z książki _Refactoring – Edition by Jay Fields et al._::
+  Duplicated Code (zduplikowany kod),
+  Long Method (długa metoda),
+  Large Class (duża klasa),
+  Long Parameter List (długa lista parametrów),
+  Divergent Change (rozbieżne zmiany),
+  Shotgun Surgery (fala uderzeniowa),
+  Feature Envy (zazdrosne metody),
+  Data Clumps (stada danych),
+  Primitive Obsession / Open Secret (opętanie prymitywami),
+  Case Statement (instrukcja case),
+  Parallel Inheritance Hierarchies (równoległe hierarchie dziedziczenia),
+  Lazy Class (leniwa klasa),
+  Speculative Generality (spekulacyjne uogólnienia),
+  Temporary Field (pole tymczasowe),
+  Message Chains (łańcuchy komunikatów),
+  Middle Man (pośrednik),
+  Inappriopriate Intimacy (niestosowna bliskość),
+  Alternative Classes with Different Interfaces (alternatywne klasy z różnymi interfejsami),
+  Incomplete Library Class (niekompletna klasa biblioteczna),
+  Data Class (klasa danych),
+  Refused Bequest (odmowa przyjęcia spadku),
+  Comments (komentarze),
+  Metaprogramming Madness (szaleństwo metaprogramowania),
+  Disjointed API (rozłączne API),
+  Repetitive Boilerplate (powtarzający się szablon).
 
 
 ## The refactoring cycle
@@ -253,7 +247,6 @@ while the design can be simplified
   select a refactoring that will address the smell
   apply the refactoring
   (check that tests still pass)
-
 
 IMPORTANT: This approach to refactoring does not guarantee to
 get the ideal design, because you can not reach a global
