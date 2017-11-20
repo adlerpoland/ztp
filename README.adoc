@@ -159,7 +159,7 @@ To find the _x_-coordinate of a rectangle’s left coordinate we have to use:
 rect = Rectangle.new Point.new(4, 5), 3, 2
 left_x = rect.top_left.x
 ```
-and wy may want to hide this delegation.
+and we may want to hide this delegation.
 
 The suggested steps for _Hide Delegate_ are following:
 
