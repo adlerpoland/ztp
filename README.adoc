@@ -252,7 +252,9 @@ IMPORTANT: This approach to refactoring does not guarantee to
 get the ideal design, because you can not reach a global
 maximum by looking at local properties.
 
-link:code_smells.adoc[Table of refactorings that will address the code smells].
+* Jeff Atwood, https://blog.codinghorror.com/code-smells[Code Smells] –
+  develop your „code nose” by watching for warning signs in your own code.
+* link:code_smells.adoc[Table of refactorings that will address the code smells].
 
 
 ## Automatyczne wyszukiwanie code smells w kodzie
