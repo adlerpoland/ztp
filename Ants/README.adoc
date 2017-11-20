@@ -14,3 +14,8 @@ wyjąć rozmiar terminala ze zmiennych środowiskowych).
 Pierwszy program robi dokładnie to; drugi dodatkowo zapisuje plik _mru.dat_ w
 którym w każdym kroku podany jest czas oraz liczba mrówek, a mrówki wyświetlane
 są za pomocą kodu ANSI na zielono.
+
+* http://www.cleveralgorithms.com/nature-inspired/index.html[Clever Algorithms: Nature-Inspired Programming Recipes]
+** http://www.cleveralgorithms.com/nature-inspired/swarm.html[Swarm Algorithms]
+*** http://www.cleveralgorithms.com/nature-inspired/swarm/ant_system.html[Ant System]
+*** http://www.cleveralgorithms.com/nature-inspired/swarm/ant_colony_system.html[Ant Colony System]
