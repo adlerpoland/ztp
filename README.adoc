@@ -190,7 +190,7 @@ end
 ```
 
 
-## Code smells ➨ Refactorings
+## Smells ➨ Refactorings
 
 Code smells suggest refactorings.
 
@@ -236,6 +236,12 @@ Lista wszystkich *code smells* z książki _Refactoring – Edition by Jay Field
   Disjointed API (rozłączne API),
   Repetitive Boilerplate (powtarzający się szablon).
 
+  * Jeff Atwood, https://blog.codinghorror.com/code-smells[Code Smells] –
+    develop your „code nose” by watching for warning signs in your own code.
+  * link:Misc/smellstorefactorings.pdf[smells ➨ refactorings]
+    (http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf[source])
+  * link:code_smells.adoc[Table of refactorings that will address the code smells].
+
 
 ## The refactoring cycle
 
@@ -251,10 +257,6 @@ while the design can be simplified
 IMPORTANT: This approach to refactoring does not guarantee to
 get the ideal design, because you can not reach a global
 maximum by looking at local properties.
-
-* Jeff Atwood, https://blog.codinghorror.com/code-smells[Code Smells] –
-  develop your „code nose” by watching for warning signs in your own code.
-* link:code_smells.adoc[Table of refactorings that will address the code smells].
 
 
 ## Automatyczne wyszukiwanie code smells w kodzie
