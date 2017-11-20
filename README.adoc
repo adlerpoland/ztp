@@ -238,7 +238,7 @@ Lista wszystkich *code smells* z książki _Refactoring – Edition by Jay Field
 
   * Jeff Atwood, https://blog.codinghorror.com/code-smells[Code Smells] –
     develop your „code nose” by watching for warning signs in your own code.
-  * link:Misc/smellstorefactorings.pdf[smells ➨ refactorings]
+  * link:Misc/smellstorefactorings.pdf[Smells ➨ Refactorings] cheatsheet
     (http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf[source])
   * link:code_smells.adoc[Table of refactorings that will address the code smells].
 
