@@ -5,7 +5,7 @@
 :experimental:
 :figure-caption!:
 
-Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
+Kilka odsyłaczy do łatwych przykładów (:memo: – za prostych na egzamin).
 
 * Jordan Hudgens,
   https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
@@ -15,7 +15,7 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
   http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
 
 
-## Deadline 7.01.2018
+## :calendar: – deadline 7.01.2018
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu.
@@ -38,7 +38,7 @@ W repozytoriach należy umieścić:
 . w katalogu _spec_ testy RSpec lub w katalogu _test_ testy MiniSpec
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
-link:RinR[RinR] i link:Ants[Ants].
+link:RinR[RinR] i link:Ants[:ant:].
 
 
 ## JTZ?
