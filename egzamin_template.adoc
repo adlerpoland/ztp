@@ -1,4 +1,4 @@
-# https://en.wikipedia.org/wiki/Open/closed_principle[Open/Closed Principle]– egzamin z ZJP
+# https://en.wikipedia.org/wiki/Open/closed_principle[Open/Closed Principle] – egzamin z ZJP
 :source-highlighter: pygments
 :pygments-style: pastie
 :icons: font
@@ -13,3 +13,29 @@ image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
   https://8thlight.com/blog/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html[The Open Closed Principle]
 * Sergii Makagon,
   http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
+
+
+## Deadline 7.01.2018
+
+* Prace oddane po 7.01.2018 – ocena obniżona.
+* Prace oddane po 14.01.2018 – ocena ndst z egzaminu.
+
+
+## Wymagania (projekt zespołowy, maks. 4 programistów)
+
+W repozytoriach należy umieścić:
+
+. W katalogu głównym plik _README_ w którym opisano:
+.. proponowane rozszerzenie funkcji programu (biblioteki)
+.. w szczegółach zapachy w kodzie i wykonane refaktoryzacje
+   które doprowadziły do otwartego kodu
+.. w szczegółach proces za pomocą którego zaimplementowano
+   proponowane rozszerzenie
+.. wstawione plakietka do https://travis-ci.org[Travis CI];
+   https://docs.travis-ci.com[dokumentacja]
+. plik z listą użytych gemów _Gemfile_, plik konfiguracyjny _.travis.yml_
+. w katalogu _lib_ kod w Ruby
+. w katalogu _spec_ testy RSpec lub w katalogu _test_ testy MiniSpec
+
+Przykładowe programy i propozycje zmian można znależć w katalogach
+link:RinR[RinR] i link:Ants[Ants].
