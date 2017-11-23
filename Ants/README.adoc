@@ -3,9 +3,12 @@
 :pygments-style: pastie
 :icons: font
 :experimental:
+:figure-caption!:
 
 .Source https://i.imgur.com/R2eAvWi.jpg
 image::images/ants.jpg[Escher Ants]
+
+{nbsp}
 
 Zagadnienie polegało w oryginale na napisaniu prostego programu pracującego w
 terminalu, który rysuje planszę po której chodzą losowo mrówki. Mrówka zajmuje
