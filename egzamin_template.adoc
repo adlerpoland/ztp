@@ -3,9 +3,7 @@
 :pygments-style: pastie
 :icons: font
 :experimental:
-
-.Source: 99 Bottles of OOP by S. Metz & K. Owen
-image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
+:figure-caption!:
 
 Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
@@ -41,3 +39,11 @@ W repozytoriach należy umieścić:
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
 link:RinR[RinR] i link:Ants[Ants].
+
+
+## JTZ?
+
+Aby uzyskać zamierzoną otwartość w kodzie kierujemy się tym schematem blokowym.
+
+.Source: 99 Bottles of OOP by S. Metz & K. Owen
+image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
