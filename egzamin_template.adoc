@@ -28,7 +28,7 @@ W repozytoriach należy umieścić:
 . W katalogu głównym plik _README_ w którym opisano:
 .. proponowane rozszerzenie funkcji programu (biblioteki)
 .. w szczegółach zapachy w kodzie i wykonane refaktoryzacje
-   które doprowadziły do otwartego kodu
+   które doprowadziły do zamierzonej otwartości w kodzie
 .. w szczegółach proces za pomocą którego zaimplementowano
    proponowane rozszerzenie
 .. wstawione plakietka do https://travis-ci.org[Travis CI];
