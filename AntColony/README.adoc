@@ -1,4 +1,4 @@
-# Ant Colonies
+# Ant Colony
 :source-highlighter: pygments
 :pygments-style: pastie
 :icons: font
