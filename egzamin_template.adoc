@@ -5,7 +5,7 @@
 :experimental:
 :figure-caption!:
 
-Kilka odsyłaczy do łatwych przykładów (:memo: – za prostych na egzamin).
+Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
 * Jordan Hudgens,
   https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
@@ -15,7 +15,7 @@ Kilka odsyłaczy do łatwych przykładów (:memo: – za prostych na egzamin).
   http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
 
 
-## :calendar: – deadline 7.01.2018
+## :memo: Terminy rozliczenia się z projektu
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu.
