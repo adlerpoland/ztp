@@ -15,7 +15,7 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
   http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
 
 
-## :memo: Terminy rozliczenia się z projektu
+## :memo: terminy rozliczania się z projektu
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu.
