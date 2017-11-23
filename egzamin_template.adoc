@@ -1,4 +1,4 @@
-# Open/Closed – egzamin z ZJP
+# https://en.wikipedia.org/wiki/Open/closed_principle[Open/Closed Principle]– egzamin z ZJP
 :source-highlighter: pygments
 :pygments-style: pastie
 :icons: font
@@ -6,3 +6,10 @@
 
 .Source: 99 Bottles of OOP by S. Metz & K. Owen
 image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
+
+* Jordan Hudgens,
+  https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
+* Robert C. Martin,
+  https://8thlight.com/blog/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html[The Open Closed Principle]
+* Sergii Makagon,
+  http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
