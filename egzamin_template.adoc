@@ -18,7 +18,7 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 ## :memo: terminy rozliczania się z projektu
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
-* Prace oddane po 14.01.2018 – ocena ndst z egzaminu.
+* Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
 
 
 ## Wymagania (projekt zespołowy, maks. 4 programistów)
