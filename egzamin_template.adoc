@@ -38,7 +38,7 @@ W repozytoriach należy umieścić:
 . w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
-link:RinR[RinR] i link:Ants[:ant:].
+link:RinR[RinR] i link:AntColony[:ant:].
 
 
 ## JTZ?
