@@ -33,8 +33,7 @@ W repozytoriach należy umieścić:
    proponowane rozszerzenie
 .. wstawiono plakietkę (_badge_) do https://travis-ci.org[Travis CI];
   https://docs.travis-ci.com[dokumentacja]
-. plik z listą użytych gemów _Gemfile_
-. plik konfiguracyjny _.travis.yml_
+. plik  _Gemfile_ z listą użytych gemów
 . w katalogu _lib_ kod w Ruby
 . w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
 
