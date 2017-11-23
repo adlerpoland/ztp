@@ -25,18 +25,14 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
 W repozytoriach należy umieścić:
 
-W katalogu głównym plik _README_ w którym opisano:
-
-. proponowane rozszerzenie funkcji programu (biblioteki)
-. w szczegółach zapachy w kodzie i wykonane refaktoryzacje
+. w katalogu głównym plik _README_ w którym:
+.. opisano proponowane rozszerzenie funkcji programu (biblioteki)
+.. w szczegółach opisano zapachy w kodzie i wykonane refaktoryzacje,
    które doprowadziły do zamierzonej otwartości w kodzie
-. w szczegółach proces za pomocą którego zaimplementowano
+.. w szczegółach opisano proces za pomocą którego zaimplementowano
    proponowane rozszerzenie
-. wstawion plakietka do https://travis-ci.org[Travis CI];
+.. wstawiono plakietkę (_badge_) do https://travis-ci.org[Travis CI];
   https://docs.travis-ci.com[dokumentacja]
-
-Do repozytorium dodajemy:
-
 . plik z listą użytych gemów _Gemfile_
 . plik konfiguracyjny _.travis.yml_
 . w katalogu _lib_ kod w Ruby
