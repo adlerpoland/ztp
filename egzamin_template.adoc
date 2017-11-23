@@ -25,17 +25,22 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
 W repozytoriach należy umieścić:
 
-. W katalogu głównym plik _README_ w którym opisano:
-.. proponowane rozszerzenie funkcji programu (biblioteki)
-.. w szczegółach zapachy w kodzie i wykonane refaktoryzacje
+W katalogu głównym plik _README_ w którym opisano:
+
+. proponowane rozszerzenie funkcji programu (biblioteki)
+. w szczegółach zapachy w kodzie i wykonane refaktoryzacje
    które doprowadziły do zamierzonej otwartości w kodzie
-.. w szczegółach proces za pomocą którego zaimplementowano
+. w szczegółach proces za pomocą którego zaimplementowano
    proponowane rozszerzenie
-.. wstawione plakietka do https://travis-ci.org[Travis CI];
-   https://docs.travis-ci.com[dokumentacja]
-. plik z listą użytych gemów _Gemfile_, plik konfiguracyjny _.travis.yml_
+. wstawion plakietka do https://travis-ci.org[Travis CI];
+  https://docs.travis-ci.com[dokumentacja]
+
+Do repozytorium dodajemy:
+
+. plik z listą użytych gemów _Gemfile_
+. plik konfiguracyjny _.travis.yml_
 . w katalogu _lib_ kod w Ruby
-. w katalogu _spec_ testy RSpec lub w katalogu _test_ testy MiniSpec
+. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
 link:RinR[RinR] i link:Ants[:ant:].
