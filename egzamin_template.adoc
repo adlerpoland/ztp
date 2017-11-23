@@ -1,0 +1,7 @@
+# Open/Closed – egzamin z ZJP
+:source-highlighter: pygments
+:pygments-style: pastie
+:icons: font
+:experimental:
+
+image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]

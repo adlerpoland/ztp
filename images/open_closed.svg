@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-37.5 -12.5 529.1828 541.4897" width="529.1828pt" height="541.4897pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2017-11-23 11:08:30 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-6 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M -4.8 0 L 0 1.8 L 0 -1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="529.1828" height="541.4897"/>
+    <g>
+      <title>Layer 1</title>
+      <path d="M 116.09141 -12 L 201.18283 63 L 116.09141 138 L 31 63 Z" fill="#ff8080"/>
+      <path d="M 116.09141 -12 L 201.18283 63 L 116.09141 138 L 31 63 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(58.97468 52.276)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="21.47456" y="15" textLength="74.688">Is it open?</tspan>
+      </text>
+      <path d="M 116.09141 350 L 201.18283 275 L 116.09141 200 L 31 275 Z" fill="#ff8080"/>
+      <path d="M 116.09141 350 L 201.18283 275 L 116.09141 200 L 31 275 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(58.97468 248.828)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="11.85056" y="15" textLength="98.384">Do you know </tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="9.61056" y="33.448" textLength="102.864">hot to make it </tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="36.29056" y="51.895996" textLength="45.056">open?</tspan>
+      </text>
+      <rect x="321" y="8.505137" width="170.18283" height="108.98973" fill="#80ff80"/>
+      <rect x="321" y="8.505137" width="170.18283" height="108.98973" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(326 53.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="18.291413" y="15" textLength="123.6">Make the change</tspan>
+      </text>
+      <rect x="321" y="220.50514" width="170.18283" height="108.98973" fill="#c0c0ff"/>
+      <rect x="321" y="220.50514" width="170.18283" height="108.98973" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(326 265.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="33.555413" y="15" textLength="93.072">Make it open</tspan>
+      </text>
+      <rect x="31" y="419.5" width="170.18283" height="108.98973" fill="#c0c0ff"/>
+      <rect x="31" y="419.5" width="170.18283" height="108.98973" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(36 446.32287)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="19.331413" y="15" textLength="125.968">Remove the best </tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="18.891413" y="33.448" textLength="126.848">understood code </tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" x="61.41941" y="51.895996" textLength="37.344">smell</tspan>
+      </text>
+      <line x1="308.1" y1="63" x2="201.18283" y2="63" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="308.1" y1="275" x2="201.18283" y2="275" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="406.0914" y1="130.39486" x2="406.0914" y2="220.50514" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="234.75586" y="48" width="36" height="30" fill="white"/>
+      <text transform="translate(239.75586 53.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".408" y="15" textLength="10.368">Y</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="9" y="15" textLength="16.592">es</tspan>
+      </text>
+      <rect x="237.112" y="260" width="36" height="30" fill="white"/>
+      <text transform="translate(242.112 265.776)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".408" y="15" textLength="10.368">Y</tspan>
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x="9" y="15" textLength="16.592">es</tspan>
+      </text>
+      <path d="M 31 473.5325 L -36.5 473.1657 L -36.5 62.01172 L 18.72097 62.369366" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="116.09141" y1="138" x2="116.09141" y2="187.1" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="116.09141" y1="350" x2="116.09141" y2="406.6" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="100.59141" y="149.78998" width="31" height="30" fill="white"/>
+      <text transform="translate(105.59141 155.56598)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".132" y="15" textLength="20.736">No</tspan>
+      </text>
+      <rect x="100.59141" y="362.6102" width="31" height="30" fill="white"/>
+      <text transform="translate(105.59141 368.3862)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="16" font-weight="500" fill="black" x=".132" y="15" textLength="20.736">No</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
