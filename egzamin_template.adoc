@@ -4,4 +4,5 @@
 :icons: font
 :experimental:
 
+.Source: 99 Bottles of OOP by S. Metz & K. Owen
 image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
