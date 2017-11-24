@@ -46,4 +46,4 @@ link:RinR[RinR] i link:AntColony[:ant:].
 Aby uzyskać zamierzoną otwartość w kodzie kierujemy się tym schematem blokowym.
 
 .Source: 99 Bottles of OOP by S. Metz & K. Owen
-image::images/open_closed.png[Opne/Closed Flowchart, 529, 541]
+image::images/open_closed.png[Open/Closed Flowchart, 529, 541]
