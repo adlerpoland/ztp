@@ -1,0 +1,26 @@
+# Ant Colonies – Big Refactorings
+:source-highlighter: pygments
+:pygments-style: pastie
+:icons: font
+:experimental:
+
+Convert Procedural Design to Objects::
+  Turn the data records into objects, break up the behavior,
+  and move the behavior to the objects.
+Separate Domain from Presentation::
+  Move the domain logic into the model.
++
+As you do this refactoring you have to pay attention to where your risk is. If
+the intermingling of presentation and domain logic is the biggest risk, get
+them completely separated before you do much else.
+
+## Convert Procedural Design to Objects
+
+[quote, Jay Fields et al., Refactoring – Ruby Edition]
+____
+A client of ours once started a project with two absolute principles the
+developers  had to follow:
+
+. You must use Java.
+. You must not use objects.
+____
