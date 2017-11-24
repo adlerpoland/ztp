@@ -24,3 +24,60 @@ developers  had to follow:
 . You must use Java.
 . You must not use objects.
 ____
+
+
+## Convert Procedural Design to Objects
+
+How to Refactor?
+
+. Take each record type and turn it into a dumb data object with accessors. +
+   ➨ _If you have a relational database, take each table and turn it into
+   a dumb data object._
+. Take all the procedural code and put it into a single class. +
+   ➨ _You can make the methods class methods._
+. Take each long procedure and apply Extract Method and the related
+   refactorings to break it down. As you break down the procedures,
+   use Move Method to move each one to the appropriate dumb data class.
+. Continue until you’ve removed all the behavior away from the original class.
+  If the original class was a purely procedural class, it’s very gratifying to
+  delete it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Separate Domain from Presentation
+
+. Identify functionality in the controllers that does not have anything to do
+  with accepting user requests, organizing for the model to do its work, or
+  triggering the appropriate views to be displayed.
+. Examine this code to determine a domain object on which it could be put. +
+  ➨ _Add a new domain object if necessary._ +
+  ➨ _Use of Extract Method may be required prior to moving the offending code.
+  The shortcuts that lead to domain logic landing in views and controllers
+  also often mix up presentation and domain logic within the methods._
+. Use Move Method to move it to the domain object.
+. Test.
+. Identify code in the views that is not concerned with display logic.
+. Examine this code to determine a domain object on which it could be put. +
+  ➨ _Add a new domain object if necessary._ +
+  ➨ _Again, use of Extract Method may be required prior to moving
+  the offending code._
+. Use Move Method to move it to the domain object.
+. Test.
+. When you are finished, you will have views that handle the GUI, control- lers
+  that handle request marshaling, and domain objects that contain all the
+  business logic. The domain objects may be well factored, but further
+  refactorings will deal with that.
