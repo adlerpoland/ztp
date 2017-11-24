@@ -27,9 +27,7 @@ ____
 
 {nbsp}
 
-link:lib/ant.rb[ant.rb] – version 1.0, codename „Procedural Code”
-
-{nbsp}
+link:lib/ant.rb[ant.rb] – version 1.0, codename *Procedural Code*.
 
 How to Refactor?
 
