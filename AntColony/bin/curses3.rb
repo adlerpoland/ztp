@@ -1,4 +1,4 @@
-require "curses"
+require 'curses'
 include Curses
 
 def onsig(sig)
@@ -7,15 +7,13 @@ def onsig(sig)
 end
 
 def ranf
-  rand(32767).to_f / 32767
+  rand(32_767).to_f / 32_767
 end
 
 # main #
 
 for i in %w[HUP INT QUIT TERM]
-  if trap(i, "SIG_IGN") != 0 then  # 0 for SIG_IGN
-    trap(i) {|sig| onsig(sig) }
-  end
+  trap(i) { |sig| onsig(sig) } if trap(i, 'SIG_IGN') != 0 # 0 for SIG_IGN
 end
 
 init_screen
@@ -27,7 +25,7 @@ xpos = {}
 ypos = {}
 r = lines - 4
 c = cols - 4
-for i in 0 .. 4
+for i in 0..4
   xpos[i] = (c * ranf).to_i + 2
   ypos[i] = (r * ranf).to_i + 2
 end
@@ -37,31 +35,31 @@ while TRUE
   x = (c * ranf).to_i + 2
   y = (r * ranf).to_i + 2
 
-  setpos(y, x); addstr(".")
+  setpos(y, x); addstr('.')
 
-  setpos(ypos[i], xpos[i]); addstr("o")
+  setpos(ypos[i], xpos[i]); addstr('o')
 
-  i = if i == 0 then 4 else i - 1 end
-  setpos(ypos[i], xpos[i]); addstr("O")
+  i = i == 0 ? 4 : i - 1
+  setpos(ypos[i], xpos[i]); addstr('O')
 
-  i = if i == 0 then 4 else i - 1 end
-  setpos(ypos[i] - 1, xpos[i]);      addstr("-")
-  setpos(ypos[i],     xpos[i] - 1); addstr("|.|")
-  setpos(ypos[i] + 1, xpos[i]);      addstr("-")
+  i = i == 0 ? 4 : i - 1
+  setpos(ypos[i] - 1, xpos[i]); addstr('-')
+  setpos(ypos[i],     xpos[i] - 1); addstr('|.|')
+  setpos(ypos[i] + 1, xpos[i]); addstr('-')
 
-  i = if i == 0 then 4 else i - 1 end
-  setpos(ypos[i] - 2, xpos[i]);       addstr("-")
-  setpos(ypos[i] - 1, xpos[i] - 1);  addstr("/ \\")
-  setpos(ypos[i],     xpos[i] - 2); addstr("| O |")
-  setpos(ypos[i] + 1, xpos[i] - 1); addstr("\\ /")
-  setpos(ypos[i] + 2, xpos[i]);       addstr("-")
+  i = i == 0 ? 4 : i - 1
+  setpos(ypos[i] - 2, xpos[i]); addstr('-')
+  setpos(ypos[i] - 1, xpos[i] - 1); addstr('/ \\')
+  setpos(ypos[i],     xpos[i] - 2); addstr('| O |')
+  setpos(ypos[i] + 1, xpos[i] - 1); addstr('\\ /')
+  setpos(ypos[i] + 2, xpos[i]); addstr('-')
 
-  i = if i == 0 then 4 else i - 1 end
-  setpos(ypos[i] - 2, xpos[i]);       addstr(" ")
-  setpos(ypos[i] - 1, xpos[i] - 1);  addstr("   ")
-  setpos(ypos[i],     xpos[i] - 2); addstr("     ")
-  setpos(ypos[i] + 1, xpos[i] - 1);  addstr("   ")
-  setpos(ypos[i] + 2, xpos[i]);       addstr(" ")
+  i = i == 0 ? 4 : i - 1
+  setpos(ypos[i] - 2, xpos[i]); addstr(' ')
+  setpos(ypos[i] - 1, xpos[i] - 1); addstr('   ')
+  setpos(ypos[i],     xpos[i] - 2); addstr('     ')
+  setpos(ypos[i] + 1, xpos[i] - 1); addstr('   ')
+  setpos(ypos[i] + 2, xpos[i]); addstr(' ')
 
   xpos[i] = x
   ypos[i] = y
