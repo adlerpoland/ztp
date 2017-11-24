@@ -25,6 +25,8 @@ developers  had to follow:
 . You must not use objects.
 ____
 
+{nbsp}
+
 How to Refactor?
 
 . Take each record type and turn it into a dumb data object with accessors. +
