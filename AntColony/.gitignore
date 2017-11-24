@@ -1,13 +1,3 @@
-.classroom
-AtF Spark
-README.html
-asciidoctor.css
-pygments-xcode.css
-pygments-pastie.css
-mru.dat
-
-# https://github.com/github/gitignore/blob/master/Ruby.gitignore
-
 *.gem
 *.rbc
 /.config
