@@ -1,13 +1,11 @@
-#!/usr/bin/ruby
-
 # Symulacja Mrowiska
 # [c] piotao, 20171024, @hebron, 4ZJP@inf
-# Program uruchamia sie z parametrami: maxC, maxR maxA
-# opcje:
-# maxR - rozmiar w poziomie, liczba kolumn w planszy
-# maxC - rozmiar w pionie, liczba wierszy
-# maxA - liczba mrowek powolanych do zycia
-
+#
+# Program uruchamia się z parametrami: maxC, maxR maxA, gdzie
+#
+#   maxR - rozmiar w poziomie, liczba kolumn w planszy
+#   maxC - rozmiar w pionie, liczba wierszy
+#   maxA - liczba mrowek powolanych do zycia
 
 class Mrowisko
   attr_reader :rows, :cols, :ants
