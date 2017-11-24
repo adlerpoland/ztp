@@ -10,7 +10,7 @@
 class Ant
 end
 
-class DisplayAnts
+class AntsController
 end
 
 class Mrowisko
