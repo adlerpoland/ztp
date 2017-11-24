@@ -83,17 +83,3 @@ class Mrowisko
     puts ""
   end
 end
-
-# program glowny.
-
-M = Mrowisko.new
-
-M.rysuj
-sleep 0.1
-
-while true
-  M.ruszaj
-  M.rysuj
-  sleep 0.1
-end
-
