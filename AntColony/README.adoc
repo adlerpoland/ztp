@@ -10,6 +10,16 @@ image::images/ants.jpg[Escher Ants]
 
 {nbsp}
 
+W pierwszej  wersji jest kilka założeń zrobionych:
+- nie ma tablicy mrówek, ani obiektu mrówka
+- jest plansza 2d jako cały obiekt, który robi wszystko, czyli 'mrowisko'
+- mrówka robi krok o 1 pole w losowo wybranym kierunku, kierunków jest 8
+- puste miejsce na planszy to w tablicy 0, mrówka to w tablicy 1
+- gdy mrówki wejdą na to samo miejsce, jedna z nich znika (mój błąd - w efekcie zadeptują się i z dwóch jedynek zostaje tylko jedna, zostawiłem to)
+- gdy mrówka wejdzie na krawędź planszy, pojawia się po przeciwnej stronie
+
+Całość jest rysowana wiersz po wierszu.
+
 Zagadnienie polegało w oryginale na napisaniu prostego programu pracującego w
 terminalu, który rysuje planszę po której chodzą losowo mrówki. Mrówka zajmuje
 jedno pole i przesuwa się o jedno pole w dowolnym kierunku. Gdy dochodzi do
@@ -20,6 +30,28 @@ wyjąć rozmiar terminala ze zmiennych środowiskowych).
 Pierwszy program robi dokładnie to; drugi dodatkowo zapisuje plik _mru.dat_ w
 którym w każdym kroku podany jest czas oraz liczba mrówek, a mrówki wyświetlane
 są za pomocą kodu ANSI na zielono.
+
+W pierwszym podejściu całość jest rysowana wiersz po wierszu. Program w wersji
+5 nie korzysta z planszy tylko z tablicy mrówek, i rysuje korzystając z kodów
+ANSI w odpowiednich miejscach terminala bezpośrednio, zatem nie ma problemu
+przewijania i migania obrazu.
+
+W wersji (7) plansza nie będzie miała ograniczeń, a terminal staje się oknem,
+przez które widać po prostu fragment mrowiska. Gdy opracuję sposób na
+nieblokujące czytanie naciśniętych klawiszy, będę mógł zrobić program który
+pokazuje mrowisko nad którym można się przesuwać i obserwować, co się dzieje. To
+będzie prosty, uniwersalny program bez filozofii i narzutu związanych z
+wyświetlaniem; wtedy nadejdzie czas na zdefiniowanie jakiegoś ciekawego
+zachowania się samych mrówek.
+
+W wersji 3 chodzenie mrówek jest losowe, ale w mniej więcej danym kierunku -
+mogą skręcać losowo o 45 stopni względem kierunku w którym chodziły wcześniej.
+Dzięki temu biegają trochę bardziej łagodnymi zakolami zamiast miotać się w
+niewielkim obszarze.
+
+{nbsp}
+
+Kilka odsyłaczy do ciekawych zachowań samych mrówek.
 
 * http://www.cleveralgorithms.com/nature-inspired/index.html[Clever Algorithms: Nature-Inspired Programming Recipes]
 ** http://www.cleveralgorithms.com/nature-inspired/swarm.html[Swarm Algorithms]
