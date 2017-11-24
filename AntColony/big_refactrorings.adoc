@@ -25,9 +25,6 @@ developers  had to follow:
 . You must not use objects.
 ____
 
-
-## Convert Procedural Design to Objects
-
 How to Refactor?
 
 . Take each record type and turn it into a dumb data object with accessors. +
@@ -59,6 +56,8 @@ How to Refactor?
 
 
 ## Separate Domain from Presentation
+
+How to Refactor?
 
 . Identify functionality in the controllers that does not have anything to do
   with accepting user requests, organizing for the model to do its work, or
