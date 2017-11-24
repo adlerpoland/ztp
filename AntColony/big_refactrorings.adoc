@@ -28,7 +28,7 @@ ____
 
 ### Version 1.0, codename „Procedural Code”
 
-W pierwszej wersji, link:lib/ant.rb[ant.rb], zrobiono kilka założeń:
+W pierwszej wersji link:lib/ant.rb[ant.rb] zrobiono kilka założeń:
 
 - nie ma tablicy mrówek, ani obiektu mrówka
 - jest plansza 2d jako cały obiekt, który robi wszystko, czyli 'mrowisko'
