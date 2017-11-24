@@ -4,6 +4,6 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'rspec', '~> 3.7.0'
-gem 'curses', '~> 1.2.4'
+gem 'rspec', '~> 3.7.0'   # https://github.com/rspec/rspec-expectations
+gem 'curses', '~> 1.2.4'  # http://ruby-doc.org/stdlib-2.0.0/libdoc/curses/rdoc/Curses.html
 gem 'rainbow', '~> 2.2.2' # https://github.com/sickill/rainbow
