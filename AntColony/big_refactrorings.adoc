@@ -37,6 +37,7 @@ W pierwszej wersji, link:lib/ant.rb[ant.rb], zrobiono kilka założeń:
 - gdy mrówki wejdą na to samo miejsce, jedna z nich znika (mój błąd - w efekcie
   zadeptują się i z dwóch jedynek zostaje tylko jedna, zostawiłem to)
 - gdy mrówka wejdzie na krawędź planszy, pojawia się po przeciwnej stronie
+- całość jest rysowana wiersz po wierszu
 
 
 ### How to Refactor?
@@ -56,7 +57,6 @@ W pierwszej wersji, link:lib/ant.rb[ant.rb], zrobiono kilka założeń:
 
 
 
-  Całość jest rysowana wiersz po wierszu.
 
 
 
