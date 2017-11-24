@@ -7,6 +7,12 @@
 #   maxC - rozmiar w pionie, liczba wierszy
 #   maxA - liczba mrowek powolanych do zycia
 
+class Ant
+end
+
+class DisplayAnts
+end
+
 class Mrowisko
   attr_reader :rows, :cols, :ants
   attr_accessor :M, :cnt
