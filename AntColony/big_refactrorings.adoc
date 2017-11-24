@@ -1,4 +1,4 @@
-# Ant Colonies – Big Refactorings
+# Big Refactorings of Ant Colonies
 :source-highlighter: pygments
 :pygments-style: pastie
 :icons: font
