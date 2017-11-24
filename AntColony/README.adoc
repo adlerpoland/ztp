@@ -11,6 +11,7 @@ image::images/ants.jpg[Escher Ants]
 {nbsp}
 
 W pierwszej  wersji jest kilka założeń zrobionych:
+
 - nie ma tablicy mrówek, ani obiektu mrówka
 - jest plansza 2d jako cały obiekt, który robi wszystko, czyli 'mrowisko'
 - mrówka robi krok o 1 pole w losowo wybranym kierunku, kierunków jest 8
