@@ -27,6 +27,10 @@ ____
 
 {nbsp}
 
+link:lib/ant.rb[ant.rb] – version 1.0, codename „Procedural Code”
+
+{nbsp}
+
 How to Refactor?
 
 . Take each record type and turn it into a dumb data object with accessors. +
