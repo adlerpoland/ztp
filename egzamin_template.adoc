@@ -40,11 +40,11 @@ W repozytoriach należy umieścić:
 Przykładowe programy i propozycje zmian można znależć w katalogach
 link:RinR[RinR] i link:AntColony[:ant:].
 
-Przykładu kodu do refaktoryzacji:
+Przykład kodu do refaktoryzacji:
 
-. git@github.com:andersondias/conway-game-of-life-ruby.git[Conway's Game of Life];
+. https://github.com/andersondias/conway-game-of-life-ruby[Conway's Game of Life];
   change – użyć biblioteki https://github.com/ruby/curses[Curses]. Zobacz też
-  git@github.com:mmozuras/life.git[mmozuras].
+  https://github.com/mmozuras/life[mmozuras].
 
 
 ## JTZ?
