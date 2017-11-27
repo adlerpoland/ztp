@@ -17,7 +17,10 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
 ## :memo: Terminy rozliczenia się z projektu Open/Closed
 
-Terminy prezentacji: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
+Terminy prezentacji:
+
+* stacjonarne: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
+* niestacjonarne: 14, 21, 28 stycznia 2018.
 
 Repozytorium z projektem należy podłączyć do
 https://classroom.github.com/classrooms[GitHub Classroom].
