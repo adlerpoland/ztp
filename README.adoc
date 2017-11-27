@@ -18,15 +18,15 @@ and the concepts don't quite fit because our future differs from our past, but
 then we stretch them a little bit.
 ____
 
-## :new: Zaliczenie, grupa 1.: 13.11 i 20.11 (stacjonarne)
-
-## :new: Zaliczenie, wszystkie grupy: 19.11 i 26.11 (niestacjonarne)
-
-Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
+// ## :new: Zaliczenie, grupa 1.: 13.11 i 20.11 (stacjonarne)
+// ## :new: Zaliczenie, wszystkie grupy: 19.11 i 26.11 (niestacjonarne)
+// Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
 
 ## :new: Egzamin, prezentacje od 4.01 do 23.01.2018
 
-Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
+* Prace oddane po 7.01.2018 – ocena obniżona.
+* Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
+
 
 ## From Simplicity to Changeability
 

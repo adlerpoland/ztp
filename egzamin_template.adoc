@@ -15,10 +15,14 @@ Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
   http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
 
 
-## :memo: terminy rozliczania się z projektu
+## :memo: Terminy rozliczania się z projektu
 
-* Prace oddane po 7.01.2018 – ocena obniżona.
-* Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
+Repozytoria w których będą przygotowane projekty należy podłączyć
+do https://classroom.github.com/classrooms[GitHub Classroom].
+_Invitation Link_ dostępny u prowadzących.
+
+* Gotowy projekt w repozytorium po 7.01.2018 – ocena obniżona.
+* Gotowy projekt w repozytorium po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
 
 
 ## Wymagania (projekt zespołowy, maks. 4 programistów)
