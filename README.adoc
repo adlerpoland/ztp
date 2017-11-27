@@ -22,7 +22,7 @@ ____
 // ## :new: Zaliczenie, wszystkie grupy: 19.11 i 26.11 (niestacjonarne)
 // Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
 
-## :new: Egzamin, prezentacje z projektu Open/Closed
+## :new: Egzamin – prezentacje z projektu Open/Closed
 
 Terminy prezentacji: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
 
