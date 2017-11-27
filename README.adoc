@@ -22,7 +22,16 @@ ____
 // ## :new: Zaliczenie, wszystkie grupy: 19.11 i 26.11 (niestacjonarne)
 // Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
 
-## :new: Egzamin, prezentacje od 4.01 do 23.01.2018
+Repozytorium z projektem należy podłączyć do
+https://classroom.github.com/classrooms[GitHub Classroom].
+_Invitation Link_ dostępny u prowadzących.
+
+* Gotowy projekt w repozytorium po 7.01.2018 – ocena obniżona.
+* Gotowy projekt w repozytorium po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
+
+## :new: Egzamin, prezentacje z projektu Open/Closed
+
+Terminy prezentacji: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
