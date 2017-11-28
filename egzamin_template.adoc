@@ -44,7 +44,7 @@ W repozytoriach należy umieścić:
   https://docs.travis-ci.com[dokumentacja]
 . plik  _Gemfile_ z listą użytych gemów
 . w katalogu _lib_ kod w Ruby
-. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
+. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec (lub inne, np. TestUnit)
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
 link:RinR[RinR] i link:AntColony[:ant:].
