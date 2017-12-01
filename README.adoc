@@ -37,7 +37,7 @@ _Invitation Link_ dostępny u prowadzących.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
 
 
-## How to start "smelling"  dcode?
+## How to start "smelling" code?
 
 image::start_smelling_bad_code.png[How to start smelling code, 516, 239]
 
