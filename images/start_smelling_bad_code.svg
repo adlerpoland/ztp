@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="29.613 281.629 516.75 239.746" width="516.75pt" height="239.746pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2017-12-01 12:02:03 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Avenir Next" font-size="20" panose-1="2 11 8 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="498" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="#fdf6e3" width="516.75" height="239.746"/>
+    <g>
+      <title>Layer 1</title>
+      <path d="M 287.988 406.18584 L 465.988 406.18584 L 465.988 427.64847 L 465.988 436.64847" stroke="#063642" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 287.988 404.3109 L 287.988 427.64847 L 287.988 436.64847" stroke="#063642" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 287.988 366.35553 L 287.988 375.35553 L 287.988 406.3109 L 109.988 406.3109 L 109.988 427.64847 L 109.988 436.64847" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect x="207.988" y="282.004" width="160" height="84.35153" fill="#6f4e2e"/>
+      <rect x="207.988" y="282.004" width="160" height="84.35153" stroke="#9f7445" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      <text transform="translate(212.988 310.67976)" fill="#fef6e4">
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="15.01" y="20" textLength="13.92">C</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="28.69" y="20" textLength="106.3">ode Smells</tspan>
+      </text>
+      <rect x="29.988" y="436.64847" width="160" height="84.35153" fill="#fe651e"/>
+      <rect x="29.988" y="436.64847" width="160" height="84.35153" stroke="#7b8dec" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      <text transform="translate(34.988 451.82424)" fill="#fef6e4">
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="6.77" y="20" textLength="11.62">T</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="18.03" y="20" textLength="60.44">he 4 R</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="78.23" y="20" textLength="64.52">ules of</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="143.23" y="20" textLength="5"> </tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="4.76" y="47" textLength="140.48">Simple Design</tspan>
+      </text>
+      <rect x="207.988" y="436.64847" width="160" height="84.35153" fill="#2d2d2d"/>
+      <rect x="207.988" y="436.64847" width="160" height="84.35153" stroke="#657b83" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      <text transform="translate(212.988 451.82424)" fill="#fef6e4">
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="44.4" y="20" textLength="66.2">SOLID </tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="27.73" y="47" textLength="12.8">P</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="39.67" y="47" textLength="82.6">rinciples</tspan>
+      </text>
+      <rect x="385.988" y="436.64847" width="160" height="84.35153" fill="#8134be"/>
+      <rect x="385.988" y="436.64847" width="160" height="84.35153" stroke="#657b83" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      <text transform="translate(390.988 451.82424)" fill="#fef6e4">
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="40.48" y="20" textLength="68.56">Law Of</tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="109.52" y="20" textLength="5"> </tspan>
+        <tspan font-family="Avenir Next" font-size="20" font-weight="bold" fill="#fef6e4" x="32.46" y="47" textLength="85.08">Demeter</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
