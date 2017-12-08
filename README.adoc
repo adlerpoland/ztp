@@ -22,7 +22,7 @@ ____
 // ## :new: Zaliczenie, wszystkie grupy: 19.11 i 26.11 (niestacjonarne)
 // Prezentacja, 10-15 minut albo wydrukowany referat, jeśli po wyznaczonym terminie.
 
-## :new: Egzamin – prezentacje z projektu Open/Closed
+## :memo: Egzamin – prezentacje z projektu Open/Closed
 
 Terminy prezentacji:
 
@@ -35,6 +35,9 @@ _Invitation Link_ dostępny u prowadzących.
 
 * Prace oddane po 7.01.2018 – ocena obniżona.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
+
+Więcej szczegółów dotyczących projektów opisano w pliku
+link:egzamin_template.adoc[egzamin_template].
 
 
 ## How to start "smelling" code?
