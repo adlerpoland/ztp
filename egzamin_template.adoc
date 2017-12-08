@@ -26,7 +26,7 @@ W repozytoriach należy umieścić:
 .. w szczegółach opisano proces za pomocą którego zaimplementowano
    proponowane rozszerzenie
 .. plik _.reek.todo_ ignorujący zapachy w kodzie nieopisane w książce M. Fowler
-  „Refaktoryzacja”; na przykład zapachów IrresponsibleModule, DuplicateMethodCall,
+  „Refaktoryzacja”, na przykład IrresponsibleModule, DuplicateMethodCall,
   UncommunicativeVariableName
 . plik  _Gemfile_ z listą użytych gemów
 . w katalogu _lib_ kod w Ruby
