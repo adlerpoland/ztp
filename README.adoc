@@ -33,6 +33,10 @@ Wydrukowaną dokumentację projektu należy oddać do 15.01.2018.
 Dokumentacja dostarczona po 22.01.2018 – ocena obniżona.
 Niedostarczenie dokumentacji do 22.01.2018 – ocena ndst w pierwszym terminie.
 
+Ostateczne oceny z egzaminu zostaną ustalone z każdym z zespołów
+29.01.2018, w godz 11:00-12:00 (stacjonarne)
+28.01.2018 po zajęciach (niestacjonarne).
+
 Więcej szczegółów dotyczących projektu Open/Closed opisano w pliku
 link:egzamin_template.adoc[egzamin_template.adoc].
 
