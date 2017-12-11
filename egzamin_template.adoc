@@ -43,8 +43,7 @@ https://github.com/mmozuras/life[mmozuras]).
 
 ❖
 
-Kilka odsyłaczy do przykładów (za prostych na egzamin) ilustrujących o co chodzi
-w zasadzie Open/Closed:
+Kilka odsyłaczy ilustrujących lub opisujących o co chodzi w zasadzie Open/Closed:
 
 * Jordan Hudgens,
   https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
