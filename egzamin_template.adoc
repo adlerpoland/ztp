@@ -15,53 +15,15 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
+Na egzamin należy zaproponować zmianę w istniejącym kodzie. Następnie, poprzez
+kolejne refaktoryzacje zmieniamy tak kod, aby otworzyć go na proponowną
+zmianę.
 
-* Jordan Hudgens,
-  https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
-* Robert C. Martin,
-  https://8thlight.com/blog/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html[The Open Closed Principle]
-* Sergii Makagon,
-  http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
+Aby uzyskać zamierzoną otwartość w kodzie można posłużyć się poniższym schematem
+blokowym.
 
-
-## Projekt zespołowy (do 5 programistów)
-
-W repozytoriach należy umieścić:
-
-. w katalogu głównym plik _README_ w którym:
-.. opisano proponowane rozszerzenie funkcji programu (biblioteki)
-.. w szczegółach opisano zapachy w kodzie i wykonane refaktoryzacje,
-   które doprowadziły do zamierzonej otwartości w kodzie
-.. w szczegółach opisano proces za pomocą którego zaimplementowano
-   proponowane rozszerzenie
-.. plik _.reek.todo_ ignorujący zapachy w kodzie nieopisane w książce M. Fowler
-  „Refaktoryzacja”, na przykład IrresponsibleModule, DuplicateMethodCall,
-  UncommunicativeVariableName
-. plik  _Gemfile_ z listą użytych gemów
-. w katalogu _lib_ kod w Ruby
-. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec (lub inne, np. TestUnit)
-
-Plik _README_ należy skonwertować do formatu PDF, dodać do repozytorium,
-wydrukować i dostarczyć przed wyznaczonym terminem.
-
-Jeśli plik jest w formacie
-http://asciidoctor.org[Asciidoctor], to do konwersji można użyć programu
-_asciidoctor-pdf_ (zainstalowanego na serwerze Sigma):
-```sh
-asciidoctor-pdf README.adoc
-```
-Zob. link:egzamin_template.pdf[egzamin_template.pdf] – przykładowy dokument
-po konwersji z formatu ADOC do PDF.
-
-Przykładowe programy i propozycje zmian można znależć w katalogach
-link:RinR[RinR] i link:AntColony[:ant:] (brak testów).
-
-Przykład kodu do refaktoryzacji:
-
-. https://github.com/andersondias/conway-game-of-life-ruby[Conway's Game of Life];
-  change – użyć biblioteki https://github.com/ruby/curses[Curses]. Zobacz też
-  https://github.com/mmozuras/life[mmozuras].
+.Source: 99 Bottles of OOP by S. Metz & K. Owen
+image::images/open_closed.png[Open/Closed Flowchart, 400]
 
 [IMPORTANT]
 ====
@@ -73,10 +35,49 @@ W trakcie refaktoryzacji obowiązują następujące reguły:
   i wykonujemy inną lepszą zmianę.
 ====
 
+Przykłady kodu z propozycjami zmian – link:RinR[RinR], link:AntColony[:ant:] (brak testów),
+https://github.com/andersondias/conway-game-of-life-ruby[Conway's Game of Life]
+(propozycje zmian – użyć biblioteki https://github.com/ruby/curses[Curses]; Zobacz też
+https://github.com/mmozuras/life[mmozuras]).
 
-## Jak to zrobić?
+❖
 
-Aby uzyskać zamierzoną otwartość w kodzie kierujemy się tym schematem blokowym.
+Kilka odsyłaczy do przykładów (za prostych na egzamin) ilustrujących o co chodzi
+w zasadzie Open/Closed:
 
-.Source: 99 Bottles of OOP by S. Metz & K. Owen
-image::images/open_closed.png[Open/Closed Flowchart, 529, 541]
+* Jordan Hudgens,
+  https://www.crondose.com/2016/08/solid-development-open-closed-principle[SOLID Development: Open Closed Principle Guide and Example]
+* Robert C. Martin,
+  https://8thlight.com/blog/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html[The Open Closed Principle]
+* Sergii Makagon,
+  http://rubyblog.pro/2017/05/solid-open-closed-principle-by-example[S[O\]LID - Open/Closed Principle by example]
+
+
+## Organizacja kodu i dokumentacji w repozytoriach
+
+W repozytoriach należy umieścić:
+
+. w katalogu głównym plik _README_ w którym:
+.. opisano (krótko) kod oraz proponowaną zmianę
+.. w opisano zapachy w kodzie i refaktoryzacje, które doprowadziły
+  do zamierzonej otwartości w kodzie
+.. opisano proces za pomocą którego wprowadzono proponowaną zmianę
+. plik _Gemfile_ z listą użytych gemów
+. w katalogu _lib_ kod w Ruby
+. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
+  (lub inne, np. TestUnit)
+. plik _.reek.todo_ ignorujący zapachy w kodzie nieopisane w książce M. Fowler
+  „Refaktoryzacja”, na przykład IrresponsibleModule, DuplicateMethodCall,
+  UncommunicativeVariableName
+
+Plik _README_ należy skonwertować do formatu PDF, dodać do repozytorium,
+wydrukować i dostarczyć przed upływem wyznaczonego terminu.
+
+Jeśli plik jest w formacie
+http://asciidoctor.org[Asciidoctor], to do konwersji można użyć programu
+_asciidoctor-pdf_ (zainstalowanego na serwerze Sigma):
+```sh
+asciidoctor-pdf README.adoc
+```
+Zob. link:egzamin_template.pdf[egzamin_template.pdf] – przykładowy dokument
+po konwersji z formatu ADOC do PDF.
