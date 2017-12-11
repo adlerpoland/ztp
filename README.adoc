@@ -37,12 +37,12 @@ Ostateczne oceny z egzaminu zostaną ustalone z każdym z zespołów
 29.01.2018, w godz 11:00-12:00 (stacjonarne)
 28.01.2018 po zajęciach (niestacjonarne).
 
+Przypominam, że warunkiem przystąpienia do egzaminu jest podłączenie
+repozytorium z projektem do https://classroom.github.com/classrooms[GitHub Classroom].
+_Invitation Link_ dostępny jest u prowadzących.
+
 Więcej szczegółów dotyczących projektu Open/Closed opisano w pliku
 link:egzamin_template.adoc[egzamin_template.adoc].
-
-Repozytorium z projektem należy podłączyć do
-https://classroom.github.com/classrooms[GitHub Classroom].
-_Invitation Link_ dostępny u prowadzących.
 
 Egzamin poprawkowy *z teorii* będzie miał formę pisemną.
 Dokładny termin egzaminu podam później.
