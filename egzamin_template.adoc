@@ -23,6 +23,8 @@ blokowym.
 .Source: 99 Bottles of OOP by S. Metz & K. Owen
 image::images/open_closed.png[Open/Closed Flowchart, 400]
 
+{nbsp}
+
 [IMPORTANT]
 ====
 W trakcie refaktoryzacji obowiązują następujące reguły:
