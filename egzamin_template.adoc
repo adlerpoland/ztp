@@ -57,18 +57,17 @@ Kilka odsyłaczy ilustrujących lub opisujących o co chodzi w zasadzie Open/Clo
 
 W repozytoriach należy umieścić:
 
-. w katalogu głównym plik _README_ w którym:
+. plik _README_ w którym:
 .. opisano (krótko) kod oraz proponowaną zmianę
 .. w opisano zapachy w kodzie i refaktoryzacje, które doprowadziły
   do zamierzonej otwartości w kodzie
 .. opisano proces za pomocą którego wprowadzono proponowaną zmianę
 . plik _Gemfile_ z listą użytych gemów
-. w katalogu _lib_ kod w Ruby
-. w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
+. w podkatalogu _lib_ kod w Ruby oraz plik _.reek.todo_ ignorujący zapachy w
+  kodzie nieopisane w książce M. Fowler „Refaktoryzacja”, na przykład
+  IrresponsibleModule, DuplicateMethodCall, UncommunicativeVariableName
+. w podkatalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec
   (lub inne, np. TestUnit)
-. plik _.reek.todo_ ignorujący zapachy w kodzie nieopisane w książce M. Fowler
-  „Refaktoryzacja”, na przykład IrresponsibleModule, DuplicateMethodCall,
-  UncommunicativeVariableName
 
 Plik _README_ należy skonwertować do formatu PDF, dodać do repozytorium,
 wydrukować i dostarczyć przed upływem wyznaczonego terminu.
