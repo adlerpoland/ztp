@@ -59,7 +59,7 @@ Kilka odsyłaczy ilustrujących lub opisujących o co chodzi w zasadzie Open/Clo
 
 W repozytoriach należy umieścić:
 
-. plik _README_ w którym:
+. plik _README_ (w notacji Markdown lub ADOC) w którym:
 .. opisano (krótko) kod oraz proponowaną zmianę
 .. w opisano zapachy w kodzie i refaktoryzacje, które doprowadziły
   do zamierzonej otwartości w kodzie
