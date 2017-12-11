@@ -29,7 +29,7 @@ image::images/open_closed.png[Open/Closed Flowchart, 400]
 ====
 W trakcie refaktoryzacji obowiązują następujące reguły:
 
-. Zmiany w kodzie dotyczą tylko jednego wiersza (instrukcji).
+. Zmiany w kodzie dotyczą tylko jednego wiersza (jednej instrukcji).
 . Uruchamiamy testy po każdej zmianie.
 . Jeśli jakiś test nie zostanie zaliczony, to wracamy do poprzedniej wersji
   i wykonujemy inną lepszą zmianę.
