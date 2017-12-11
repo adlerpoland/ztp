@@ -26,12 +26,12 @@ ____
 
 Terminy prezentacji projektów:
 
-* stacjonarne: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
-* niestacjonarne: 14, 21, 28 stycznia 2018.
+* stacjonarne: 16, 23 stycznia 2018, g. 16:00, aula 1.
+* niestacjonarne: 21, 28 stycznia 2018.
 
-Wydrukowaną dokumentację projektu należy oddać do 8.01.2018.
-Dokumentacja dostarczona po 8.01.2018 – ocena obniżona.
-Niedostarczenie dokumentacji do 16.01.2018 – ocena ndst w pierwszym terminie.
+Wydrukowaną dokumentację projektu należy oddać do 15.01.2018.
+Dokumentacja dostarczona po 22.01.2018 – ocena obniżona.
+Niedostarczenie dokumentacji do 22.01.2018 – ocena ndst w pierwszym terminie.
 
 Więcej szczegółów dotyczących projektu Open/Closed opisano w pliku
 link:egzamin_template.adoc[egzamin_template.adoc].
