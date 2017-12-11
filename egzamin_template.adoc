@@ -1,9 +1,19 @@
 # https://en.wikipedia.org/wiki/Open/closed_principle[Open/Closed Principle]
+Włodek Bzyl <https://github.com/wbzyl[@wbzyl]>
+version 1.1, December 11, 2017
 :source-highlighter: pygments
-:pygments-style: pastie
-:icons: font
+:pygments-style: manni
 :experimental:
 :figure-caption!:
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:caution-caption: :fire:
+:important-caption: :white_check_mark:
+:note-caption: :notes:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 
 Kilka odsyłaczy do łatwych przykładów (za prostych na egzamin).
 
@@ -31,6 +41,19 @@ W repozytoriach należy umieścić:
 . plik  _Gemfile_ z listą użytych gemów
 . w katalogu _lib_ kod w Ruby
 . w katalogu _spec_ testy RSpec; albo w katalogu _test_ testy MiniSpec (lub inne, np. TestUnit)
+
+[IMPORTANT]
+====
+Plik README należy skonwertować do formatu PDF, wydrukować i dostarczyć przed
+wyznaczonym terminem. Jeśli plik jest w formacie
+http://asciidoctor.org[Asciidoctor], to do konwersji można użyć programu
+_asciidoctor-pdf_ (jest zainstalowany na serwerze Sigma) w taki sposób:
+```sh
+asciidoctor-pdf README.adoc
+```
+Oto przykładowy dokument link:egzamin_template.pdf[egzamin_template.pdf]
+po konwersji z formatu ADOC do PDF.
+====
 
 Przykładowe programy i propozycje zmian można znależć w katalogach
 link:RinR[RinR] i link:AntColony[:ant:] (brak testów).
