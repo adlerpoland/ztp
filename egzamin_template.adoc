@@ -1,4 +1,4 @@
-# https://en.wikipedia.org/wiki/Open/closed_principle[Open/Closed Principle]
+# Open/Closed Principle
 Włodek Bzyl <https://github.com/wbzyl[@wbzyl]>
 version 1.1, December 11, 2017
 :source-highlighter: pygments
