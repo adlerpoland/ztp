@@ -45,7 +45,7 @@ W repozytoriach należy umieścić:
 Plik _README_ należy skonwertować do formatu PDF, dodać do repozytorium,
 wydrukować i dostarczyć przed wyznaczonym terminem.
 
-UWAGA: Jeśli plik jest w formacie
+Jeśli plik jest w formacie
 http://asciidoctor.org[Asciidoctor], to do konwersji można użyć programu
 _asciidoctor-pdf_ (zainstalowanego na serwerze Sigma):
 ```sh
