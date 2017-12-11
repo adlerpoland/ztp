@@ -17,7 +17,6 @@ endif::[]
 
 Na egzamin należy zaproponować zmianę w istniejącym kodzie. Następnie poprzez
 kolejne refaktoryzacje, zmieniamy kod, tak aby otworzyć go na proponowną zmianę.
-
 Aby uzyskać zamierzoną otwartość w kodzie można posłużyć się poniższym schematem
 blokowym.
 
