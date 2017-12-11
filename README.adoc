@@ -41,7 +41,7 @@ _Invitation Link_ dostępny u prowadzących.
 * Prace oddane po 14.01.2018 – ocena ndst z egzaminu w pierwszym terminie.
 
 Więcej szczegółów dotyczących projektów opisano w pliku
-link:egzamin_template.adoc[egzamin_template].
+link:egzamin_template.adoc[egzamin_template.adoc].
 
 Pisemmny egzamin poprawkowy z teorii odbędzie się w sesji poprawkowej
 (19.02.2018 – 04.03.2018).
