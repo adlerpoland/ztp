@@ -35,9 +35,10 @@ W trakcie refaktoryzacji obowiązują następujące reguły:
   i wykonujemy inną lepszą zmianę.
 ====
 
-Przykłady kodu z propozycjami zmian – link:RinR[RinR], link:AntColony[:ant:] (brak testów),
+Przykłady kodu z propozycjami zmian – link:RinR[RinR], link:AntColony[:ant:]
+(brak testów i ewentualnych zmian),
 https://github.com/andersondias/conway-game-of-life-ruby[Conway's Game of Life]
-(propozycje zmian – użyć biblioteki https://github.com/ruby/curses[Curses]; Zobacz też
+(zmiana: użyć biblioteki https://github.com/ruby/curses[Curses]; zob. też
 https://github.com/mmozuras/life[mmozuras]).
 
 ❖
