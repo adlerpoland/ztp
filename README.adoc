@@ -29,6 +29,10 @@ Terminy prezentacji:
 * stacjonarne: 9, 16, 23 stycznia 2018, g. 16:00, aula 1.
 * niestacjonarne: 14, 21, 28 stycznia 2018.
 
+[NOTE]
+Zamiast prezentacji projektu można oddać, oczywiście przed upływem terminu,
+wydrukowaną dokumentację.
+
 Repozytorium z projektem należy podłączyć do
 https://classroom.github.com/classrooms[GitHub Classroom].
 _Invitation Link_ dostępny u prowadzących.
@@ -38,6 +42,9 @@ _Invitation Link_ dostępny u prowadzących.
 
 Więcej szczegółów dotyczących projektów opisano w pliku
 link:egzamin_template.adoc[egzamin_template].
+
+Pisemmny egzamin poprawkowy z teorii odbędzie się w sesji poprawkowej
+(19.02.2018 – 04.03.2018).
 
 
 ## How to start "smelling" code?
