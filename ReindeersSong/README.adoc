@@ -4,14 +4,12 @@
 :icons: font
 :experimental:
 
-
 This repository contains a solution to the exercise „Reindeer Song”
 which is modeled on „Beer Song” from http://exercism.io[exercism.io]:
 ```sh
 exercism fetch ruby beer-song
 ```
-Source: „Learn to Program” by Chris Pine
-http://pine.fm/LearnToProgram/?Chapter=06[http://pine.fm/LearnToProgram/?Chapter=06]
+Source: http://pine.fm/LearnToProgram/?Chapter=06[Learn to Program] by Chris Pine
 
 
 ## Reindeer Song
