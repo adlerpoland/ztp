@@ -6,7 +6,7 @@
 :imagesdir: ./images
 
 This repository contains a solution to the exercise „Reindeer Song”
-which is modeled on „Beer Song” from [exercism.io](http://exercism.io):
+which is modeled on „Beer Song” from http://exercism.io[exercism.io]:
 ```sh
 exercism fetch ruby beer-song
 ```
