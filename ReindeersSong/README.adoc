@@ -3,7 +3,7 @@
 :pygments-style: pastie
 :icons: font
 :experimental:
-:imagesdir: ./images
+
 
 This repository contains a solution to the exercise „Reindeer Song”
 which is modeled on „Beer Song” from http://exercism.io[exercism.io]:
