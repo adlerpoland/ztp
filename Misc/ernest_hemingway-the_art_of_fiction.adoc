@@ -1,0 +1,14 @@
+# Ernest Hemingway, The Art of Fiction No. 21
+:experimental:
+:figure-caption!:
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:caution-caption: :fire:
+:important-caption: :white_check_mark:
+:note-caption: :notes:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+Source https://www.theparisreview.org/interviews/4825/ernest-hemingway-the-art-of-fiction-no-21-ernest-hemingway[Ernest Hemingway, The Art of Fiction No. 21]
