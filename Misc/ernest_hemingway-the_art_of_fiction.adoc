@@ -12,3 +12,50 @@ ifdef::env-github[]
 endif::[]
 
 Source https://www.theparisreview.org/interviews/4825/ernest-hemingway-the-art-of-fiction-no-21-ernest-hemingway[Ernest Hemingway, The Art of Fiction No. 21]
+
+INTERVIEWER::
+Do you do any rewriting as you read up to the place you left off the day before?
+Or does that come later, when the whole is finished?
+HEMINGWAY::
+I always rewrite each day up to the point where I stopped. When it is all
+finished, naturally you go over it. You get another chance to correct and
+rewrite when someone else types it, and you see it clean in type. The last
+chance is in the proofs. You’re grateful for these different chances.
+
+HEMINGWAY::
+On the Star you were forced to learn to write a simple declarative sentence.
+This is useful to anyone.
+
+INTERVIEWER::
+These questions which inquire into craftsmanship really are an annoyance.
+
+HEMINGWAY::
+A sensible question is neither a delight nor an annoyance. I still believe,
+though, that it is very bad for a writer to talk about how he writes. He writes
+to be read by the eye and no explanations or dissertations should be necessary.
+You can be sure that there is much more there than will be read at any first
+reading and having made this it is not the writer’s province to explain it or to
+run guided tours through the more difficult country of his work.
+
+INTERVIEWER::
+How do you name your characters?
+HEMINGWAY::
+The best I can.
+
+INTERVIEWER::
+Do the titles come to you while you’re in the process of doing the story?
+HEMINGWAY::
+No. I make a list of titles after I’ve finished the story or the book—sometimes
+as many as a hundred. Then I start eliminating them, sometimes all of them.
+
+INTERVIEWER:: So when you’re not writing, you remain constantly the observer,
+looking for something which can be of use.
+HEMINGWAY::
+Surely. If a writer stops observing he is finished. But he does not have to
+observe consciously nor think how it will be useful. Perhaps that would be true
+at the beginning. But later everything he sees goes into the great reserve of
+things he knows or has seen. If it is any use to know it, I always try to write
+on the principle of the iceberg. There is seven-eighths of it underwater for
+every part that shows. Anything you know you can eliminate and it only
+strengthens your iceberg. It is the part that doesn’t show. If a writer omits
+something because he does not know it then there is a hole in the story.
