@@ -28,7 +28,6 @@ This is useful to anyone.
 
 INTERVIEWER::
 These questions which inquire into craftsmanship really are an annoyance.
-
 HEMINGWAY::
 A sensible question is neither a delight nor an annoyance. I still believe,
 though, that it is very bad for a writer to talk about how he writes. He writes
