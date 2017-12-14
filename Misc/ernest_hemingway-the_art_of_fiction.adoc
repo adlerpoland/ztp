@@ -11,7 +11,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-Source https://www.theparisreview.org/interviews/4825/ernest-hemingway-the-art-of-fiction-no-21-ernest-hemingway[Ernest Hemingway, The Art of Fiction No. 21]
+Source: https://www.theparisreview.org/interviews/4825/ernest-hemingway-the-art-of-fiction-no-21-ernest-hemingway[Ernest Hemingway, The Art of Fiction No. 21]
 
 INTERVIEWER::
 Do you do any rewriting as you read up to the place you left off the day before?
