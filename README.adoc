@@ -288,14 +288,19 @@ while the design can be simplified
   apply the refactoring
   (check that tests still pass)
 
-IMPORTANT: This approach to refactoring does not guarantee to
+[IMPORTANT]
+This approach to refactoring does not guarantee to
 get the ideal design, because you can not reach a global
 maximum by looking at local properties.
 
-[TIP]
+[WARNING]
 ====
 Why Refactor?::
   Economics.
+====
+
+[TIP]
+====
 Martin Fowler, https://www.youtube.com/watch?v=vqEg37e4Mkw[Workflows of Refactoring]::
   3 more reasons to use refactrorings: Litter Refactoring (ugly code),
   Comprehension Refactoring (I do not understand),
