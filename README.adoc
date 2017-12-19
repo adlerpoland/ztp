@@ -12,6 +12,8 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+// https://github.com/scotch-io/All-Github-Emoji-Icons
+
 // asciidoctor -a linkcss README.adoc
 // https://classroom.github.com/classrooms
 // https://www.showmax.com/pol/tvseries/466ad0jw-mr-robot
