@@ -299,7 +299,8 @@ Why Refactor?::
 Martin Fowler, https://www.youtube.com/watch?v=vqEg37e4Mkw[Workflows of Refactoring]::
   3 more reasons to use refactrorings: Litter Refactoring (ugly code),
   Comprehension Refactoring (I do not understand),
-  Preparatory Refactoring (we should have done it this way).
+  Preparatory Refactoring (we should have done it this way);
+  https://martinfowler.com/articles/workflowsOfRefactoring/[slides deck].
 ====
 
 
