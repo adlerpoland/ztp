@@ -9,7 +9,7 @@ ifdef::env-github[]
 :important-caption: :white_check_mark:
 :note-caption: :notes:
 :tip-caption: pass:[&#128161;]
-:warning-caption: pass:[&#9888;]
+:warning-caption: :warning:
 endif::[]
 
 // asciidoctor -a linkcss README.adoc
