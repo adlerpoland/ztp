@@ -1,9 +1,16 @@
 # Zaawansowane Języki Programowania, 17/18
 :source-highlighter: pygments
-:pygments-style: pastie
-:icons: font
+:pygments-style: manni
 :experimental:
 :imagesdir: ./images
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:caution-caption: pass:[&#9888;]
+:important-caption: :white_check_mark:
+:note-caption: :notes:
+:tip-caption: pass:[&#128161;]
+:warning-caption: pass:[&#9888;]
+endif::[]
 
 // asciidoctor -a linkcss README.adoc
 // https://classroom.github.com/classrooms
@@ -285,6 +292,16 @@ IMPORTANT: This approach to refactoring does not guarantee to
 get the ideal design, because you can not reach a global
 maximum by looking at local properties.
 
+[TIP]
+====
+Why Refactor?::
+  Economics.
+Martin Fowler, https://www.youtube.com/watch?v=vqEg37e4Mkw[Workflows of Refactoring]::
+  3 more reasons to use refactrorings: Litter Refactoring (ugly code),
+  Comprehension Refactoring (I do not understand),
+  Preparatory Refactoring (we should have done it this way).
+====
+
 
 ## Automatyczne wyszukiwanie code smells w kodzie
 
@@ -370,7 +387,7 @@ Można też spróbować swoich sił na zadaniach z portalu http://exercism.io[Ex
 
 ```sh
 exercism list ruby
-exercism fetch ruby hello-world
+exercism fetch ruby beer-song
 ```
 
 ## Misc Git
@@ -390,3 +407,6 @@ git diff tag1 tag2 -- some/file/name # look at differences for some file
 git diff --name-status master..branch_or_tag_name
 git diff master..branch_or_tag_name
 ```
+
+* http://ohshitgit.com/[Oh shit, git!] – Git is hard: screwing up is easy,
+  and figuring out how to fix your mistakes is fucking impossible.
