@@ -1,0 +1,43 @@
+# Reindeers Song
+:source-highlighter: pygments
+:pygments-style: pastie
+:icons: font
+:experimental:
+
+This repository contains a solution to the exercise „Reindeers Song”
+which is modeled on „Beer Song” from http://exercism.io[exercism.io]:
+```sh
+exercism fetch ruby beer-song
+```
+Source: http://pine.fm/LearnToProgram/?Chapter=06[Learn to Program] by Chris Pine
+
+
+## The lyrics
+
+Produce the lyrics to that classic 7 Reindeers Song.
+Note that not all verses are identical.
+
+```plain
+7 reniferów ciągnie sanie
+jeden się zasapał ile ich zostanie?
+
+6 reniferów ciągnie sanie
+drugi się zasapał ile ich zostanie?
+
+5 reniferów ciągnie sanie
+trzeci się zasapał ile ich zostanie?
+
+4 renifery ciągnią sanie
+czwarty się zasapał ile ich zostanie?
+
+3 renifery ciągną sanie
+piąty się zasapał ile ich zostanie?
+
+2 renifery ciągną sanie
+szósty się zasapał ile ich zostanie?
+
+1 renifer ciągnie sanie
+jeden się zasapał ile ich zostanie?
+
+TODO: dopisać „zapętlającą” zwrotkę
+```
